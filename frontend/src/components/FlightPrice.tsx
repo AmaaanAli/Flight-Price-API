@@ -15,7 +15,7 @@ const FlightPrice: React.FC = () => {
   const handleSearch = async () => {
     setError(null);
     try {
-      const response = await axios.post("http://localhost:3000/flights", {
+      const response = await axios.post("https://flight-price-api-te55.onrender.com/flights", {
         source,
         destination,
         date,
