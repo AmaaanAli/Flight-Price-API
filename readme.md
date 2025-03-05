@@ -1,5 +1,7 @@
 # Flight Price API
 
+## Hosted Url - https://flight-price-api-six.vercel.app/
+
 ## Overview
 The Flight Price API is a Node.js-based REST API that provides flight prices between two cities for a given date. Users can send requests with source, destination, and date to get available flight prices.
 
